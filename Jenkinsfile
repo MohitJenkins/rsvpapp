@@ -50,7 +50,7 @@ spec:
     stage('Deploy') {
       environment {
         GIT_CREDS = credentials('github')
-        HELM_GIT_REPO_URL = "github.com/mohitjenkins/rsvpapp-helm-cicd.git"
+        HELM_GIT_REPO_URL = "github.com/MohitJenkins/rsvpapp-helm-cicd.git"
         GIT_REPO_EMAIL = 'mohitadmn88@gmail.com'
         GIT_REPO_BRANCH = "master"
           
